@@ -6,7 +6,7 @@
     "depends": ["account", "purchase"],
     "data": [
         "security/ir.model.access.csv",
-        "views/purchase_history_wizard.xml",
+        "wizards/purchase_history_wizard.xml",
         "views/purchase_order_view.xml",
     ],
     "application": True,
