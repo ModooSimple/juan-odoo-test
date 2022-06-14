@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="purchas_history_wizard_view" model="ir.ui.view">
+        <field name="name">purchase.line.wizard.form</field>
+        <field name="model">purchaseline.wizard</field>
+        <field name="arch" type="xml">
+            <form>
+                <group>
+                    <field name="product_id" readonly="1"/>    
+                </group>  
+                <field name="purchase_lines">
+                    <tree>
+                        <field name="invoice_number"/>
+                        <field name="invoice_date"/>
+                        <field name="vendor"/>
+                        <field name="order_number"/>
+                        <field name="order_date"/>
+                        <field name="qty_billed"/>
+                        <field name="qty_ordered"/>
+                        <field name="qty_received"/>
+                        <field name="product_uom"/>
+                        <field name="price_unit"/>
+                        <field name="subsidiary"/>
+                    </tree>
+                </field>
+                <footer>
+                    <button string="Close" class="oe_highlight" special="cancel"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_purchase_history_wizard" model="ir.actions.act_window">
+        <field name="name">Purchase History</field>
+        <field name="res_model">purchase.history.wizard</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+    </record>
+</odoo>
