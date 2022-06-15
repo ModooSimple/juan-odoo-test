@@ -1,0 +1,137 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* product_purchase_history
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-15 00:32+0000\n"
+"PO-Revision-Date: 2022-06-14 19:40-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. module: product_purchase_history
+#: model_terms:ir.ui.view,arch_db:product_purchase_history.purchas_history_wizard_view
+msgid "Close"
+msgstr "Cerrar"
+
+#. module: product_purchase_history
+#: model:ir.model.fields,field_description:product_purchase_history.field_purchase_history_line_wizard__create_uid
+#: model:ir.model.fields,field_description:product_purchase_history.field_purchase_history_wizard__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: product_purchase_history
+#: model:ir.model.fields,field_description:product_purchase_history.field_purchase_history_line_wizard__create_date
+#: model:ir.model.fields,field_description:product_purchase_history.field_purchase_history_wizard__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: product_purchase_history
+#: model:ir.model.fields,field_description:product_purchase_history.field_purchase_history_line_wizard__display_name
+#: model:ir.model.fields,field_description:product_purchase_history.field_purchase_history_wizard__display_name
+msgid "Display Name"
+msgstr "Nombre Público"
+
+#. module: product_purchase_history
+#: model:ir.model.fields,field_description:product_purchase_history.field_purchase_history_line_wizard__id
+#: model:ir.model.fields,field_description:product_purchase_history.field_purchase_history_wizard__id
+msgid "ID"
+msgstr "ID"
+
+#. module: product_purchase_history
+#: model:ir.model.fields,field_description:product_purchase_history.field_purchase_history_line_wizard__invoice_date
+msgid "Invoice Date"
+msgstr "Fecha Factura"
+
+#. module: product_purchase_history
+#: model:ir.model.fields,field_description:product_purchase_history.field_purchase_history_line_wizard__invoice_number
+msgid "Invoice Number"
+msgstr "N° Factura"
+
+#. module: product_purchase_history
+#: model:ir.model.fields,field_description:product_purchase_history.field_purchase_history_line_wizard____last_update
+#: model:ir.model.fields,field_description:product_purchase_history.field_purchase_history_wizard____last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
+
+#. module: product_purchase_history
+#: model:ir.model.fields,field_description:product_purchase_history.field_purchase_history_line_wizard__write_uid
+#: model:ir.model.fields,field_description:product_purchase_history.field_purchase_history_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: product_purchase_history
+#: model:ir.model.fields,field_description:product_purchase_history.field_purchase_history_line_wizard__write_date
+#: model:ir.model.fields,field_description:product_purchase_history.field_purchase_history_wizard__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: product_purchase_history
+#: model:ir.model.fields,field_description:product_purchase_history.field_purchase_history_line_wizard__price_unit
+msgid "Net cost"
+msgstr "Costo Neto"
+
+#. module: product_purchase_history
+#: model:ir.model.fields,field_description:product_purchase_history.field_purchase_history_line_wizard__qty_ordered
+msgid "Ordered Qty"
+msgstr "Cant. Pedida"
+
+#. module: product_purchase_history
+#: model:ir.model.fields,field_description:product_purchase_history.field_purchase_history_wizard__product_id
+msgid "Product"
+msgstr "Producto"
+
+#. module: product_purchase_history
+#: model:ir.model.fields,field_description:product_purchase_history.field_purchase_history_line_wizard__order_date
+msgid "Purchase Date"
+msgstr "Fecha OC"
+
+#. module: product_purchase_history
+#: model:ir.actions.act_window,name:product_purchase_history.action_purchase_history_wizard
+#: model:ir.model,name:product_purchase_history.model_purchase_history_wizard
+#: model:ir.model.fields,field_description:product_purchase_history.field_purchase_history_wizard__purchase_history_line_ids
+msgid "Purchase History"
+msgstr "Histórico de compras"
+
+#. module: product_purchase_history
+#: model:ir.model,name:product_purchase_history.model_purchase_history_line_wizard
+msgid "Purchase History Lines"
+msgstr "Lineas histórico de compras"
+
+#. module: product_purchase_history
+#: model:ir.model.fields,field_description:product_purchase_history.field_purchase_history_line_wizard__order_number
+msgid "Purchase Number"
+msgstr "N° OC"
+
+#. module: product_purchase_history
+#: model:ir.model.fields,field_description:product_purchase_history.field_purchase_history_line_wizard__qty_received
+msgid "Received Qty"
+msgstr "Cant. Recibida"
+
+#. module: product_purchase_history
+#: model:ir.model.fields,field_description:product_purchase_history.field_purchase_history_line_wizard__subsidiary
+msgid "Subsidiary"
+msgstr "Sucursal"
+
+#. module: product_purchase_history
+#: model:ir.model.fields,field_description:product_purchase_history.field_purchase_history_line_wizard__product_uom
+msgid "UoM"
+msgstr "UdM"
+
+#. module: product_purchase_history
+#: model:ir.model.fields,field_description:product_purchase_history.field_purchase_history_line_wizard__vendor
+msgid "Vendor"
+msgstr "Proveedor"
+
+#. module: product_purchase_history
+#: model:ir.model.fields,field_description:product_purchase_history.field_purchase_history_line_wizard__wiz_id
+msgid "Wiz"
+msgstr "Wiz"
