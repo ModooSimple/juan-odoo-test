@@ -6,8 +6,8 @@
     "depends": ["account", "purchase", "stock"],
     "data": [
         "security/ir.model.access.csv",
-        "wizards/purchase_order_view.xml",
-        "views/purchase_history_wizard.xml",
+        "wizards/purchase_history_wizard.xml",
+        "views/purchase_order_view.xml",
     ],
     "application": True,
     "auto_install": False,
