@@ -93,6 +93,7 @@ class PurchaseHistoryWizard(models.TransientModel):
     product_id = fields.Many2one(
         "product.product", string="Product", default=_default_product_id
     )
+    charizard = fields.Char("Charizard", size=5)
     purchase_history_line_ids = fields.One2many(
         "purchase.history.line.wizard",
         "wiz_id",
